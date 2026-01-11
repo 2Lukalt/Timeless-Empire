@@ -1,18 +1,12 @@
-/* =========================================
-   1. BASE & TYPOGRAPHIE
-   ========================================= */
 body {
     font-family: "Segoe UI", "Roboto", Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #0a0e1a; /* Fond très sombre (Bleu nuit) */
-    color: #e5e9f2;            /* Texte clair (Gris bleuté) */
+    background-color: #0a0e1a;
+    color: #e5e9f2;         
     line-height: 1.6;
 }
 
-/* =========================================
-   2. HEADER & NAVIGATION
-   ========================================= */
 header {
     background-color: #141a2b;
     padding: 20px;
@@ -23,17 +17,16 @@ header {
 header h1 {
     margin: 0;
     font-size: 2.5rem;
-    /* Effet dégradé Or vers Bleu clair sur le texte */
     background: linear-gradient(90deg, #ffd27a, #bcecff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    color: transparent; /* Fallback */
+    color: transparent;
 }
 
 nav {
     background-color: #0e1423;
     border-bottom: 2px solid rgba(255, 255, 255, 0.05);
-    position: sticky; /* Garde le menu en haut si on scroll (optionnel) */
+    position: sticky;
     top: 0;
     z-index: 100;
 }
@@ -45,7 +38,7 @@ nav ul {
     gap: 30px;
     justify-content: center;
     list-style: none;
-    flex-wrap: wrap; /* Permet au menu de passer à la ligne sur petit écran */
+    flex-wrap: wrap;
 }
 
 nav ul li a {
@@ -59,12 +52,9 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffd27a; /* Couleur Or au survol */
+    color: #ffd27a;
 }
 
-/* =========================================
-   3. CONTENU GÉNÉRAL & TITRES
-   ========================================= */
 main {
     max-width: 1000px;
     margin: 0 auto;
@@ -101,7 +91,6 @@ li {
     margin-bottom: 10px;
 }
 
-/* Ligne de séparation */
 hr {
     border: 0;
     height: 1px;
@@ -109,11 +98,6 @@ hr {
     margin: 40px 0;
 }
 
-/* =========================================
-   4. PAGE D'ACCUEIL (HOME)
-   ========================================= */
-
-/* Hero Section (Bannière principale) */
 .hero-section {
     text-align: center;
     padding: 80px 20px;
@@ -138,7 +122,6 @@ hr {
     margin: 0 auto 40px auto;
 }
 
-/* Boutons d'Appel à l'Action (CTA) */
 .cta-group {
     display: flex;
     justify-content: center;
@@ -149,7 +132,7 @@ hr {
 .cta-btn {
     display: inline-block;
     padding: 15px 35px;
-    border-radius: 50px; /* Bord arrondi */
+    border-radius: 50px;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
@@ -182,7 +165,6 @@ hr {
     color: #fff;
 }
 
-/* Grille de Fonctionnalités (Features) */
 .features-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -218,9 +200,6 @@ hr {
     display: block;
 }
 
-/* =========================================
-   5. PAGE ÉQUIPE (ABOUT US)
-   ========================================= */
 .team-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -256,14 +235,10 @@ hr {
     margin-bottom: 15px;
 }
 
-/* =========================================
-   6. PAGE PROJET (PRESENTATION)
-   ========================================= */
 .resource-list li strong {
-    color: #bcecff; /* Met en valeur les noms des ressources */
+    color: #bcecff;
 }
 
-/* Boutons de téléchargement */
 .download-btn {
     display: inline-block;
     background: #141a2b;
@@ -283,9 +258,6 @@ hr {
     color: #0a0e1a;
 }
 
-/* =========================================
-   7. PAGE CONTACT (FORMULAIRE)
-   ========================================= */
 .contact-container {
     background: #141a2b;
     padding: 40px;
@@ -313,7 +285,6 @@ hr {
     font-size: 0.95rem;
 }
 
-/* Champs de saisie */
 .form-group input, 
 .form-group select, 
 .form-group textarea {
@@ -327,7 +298,6 @@ hr {
     transition: border-color 0.3s ease;
 }
 
-/* Focus sur les champs */
 .form-group input:focus, 
 .form-group select:focus, 
 .form-group textarea:focus {
@@ -336,7 +306,6 @@ hr {
     box-shadow: 0 0 5px rgba(255, 210, 122, 0.2);
 }
 
-/* Bouton Envoyer */
 .submit-btn {
     background: linear-gradient(135deg, #ffd27a, #d4a756);
     color: #0a0e1a;
@@ -363,9 +332,6 @@ hr {
     padding-top: 20px;
 }
 
-/* =========================================
-   8. FOOTER
-   ========================================= */
 footer {
     background: #141a2b;
     padding: 30px 20px;
