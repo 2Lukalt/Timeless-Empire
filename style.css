@@ -341,3 +341,53 @@ footer {
     font-size: 0.9rem;
     margin-top: 40px;
 }
+
+/* ===================== */
+/* WIKI CARD STYLES */
+/* ===================== */
+
+.card-effect{
+    font-weight: bold;
+    color: #bcecff;
+    margin-bottom: 10px;
+}
+
+/* resource cards */
+
+.resource-card{
+    border-top: 3px solid #6fd98c;
+}
+
+.resource-card:hover{
+    box-shadow: 0 10px 20px rgba(111,217,140,0.2);
+}
+
+/* building cards */
+
+.building-card{
+    border-top: 3px solid #ffd27a;
+}
+
+.building-card:hover{
+    box-shadow: 0 10px 20px rgba(255,210,122,0.25);
+}
+
+/* malus cards */
+
+.malus-card{
+    border-top: 3px solid #ff6b6b;
+}
+
+.malus-card:hover{
+    box-shadow: 0 10px 20px rgba(255,107,107,0.3);
+}
+
+/* icon animation */
+
+.feature-card:hover .feature-icon{
+    transform: scale(1.2);
+}
+
+.feature-icon{
+    transition: transform 0.3s ease;
+}
